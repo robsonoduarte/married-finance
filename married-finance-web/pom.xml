@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>married-finance</artifactId>
+    <groupId>br.com</groupId>
+    <version>1.0.0</version>
+    <relativePath>../married-finance</relativePath>
+  </parent>
+
+  <artifactId>married-finance-web</artifactId>
+  <packaging>war</packaging>
+  <name>married-finance-web</name>
+
+
+
+  <dependencies>
+  	<dependency>
+  		<groupId>javax</groupId>
+  		<artifactId>javaee-api</artifactId>
+  		<scope>provided</scope>
+  	</dependency>
+  	<dependency>
+  		<groupId>br.com</groupId>
+  		<artifactId>married-finance-domain</artifactId>
+  		<version>1.0.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>br.com</groupId>
+  		<artifactId>married-finance-service</artifactId>
+  		<type>ejb</type>
+  		<version>1.0.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.google.code.gson</groupId>
+  		<artifactId>gson</artifactId>
+  		<version>2.2.2</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.commons</groupId>
+  		<artifactId>commons-lang3</artifactId>
+  		<version>3.1</version>
+  	</dependency>
+  </dependencies>
+
+</project>
