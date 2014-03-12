@@ -12,12 +12,5 @@
   <artifactId>married-finance-domain</artifactId>  
   <name>married-finance-domain</name>
   
-  
-
-  <dependencies>
-  	<dependency>
-  		<groupId>javax</groupId>
-  		<artifactId>javaee-api</artifactId>
-  	</dependency>
-  </dependencies>
+   
 </project>
