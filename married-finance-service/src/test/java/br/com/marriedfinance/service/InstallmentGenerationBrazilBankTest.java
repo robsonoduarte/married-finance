@@ -1,4 +1,7 @@
 package br.com.marriedfinance.service;
+import static org.hamcrest.Matchers.is;
+import static org.junit.Assert.assertThat;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -31,6 +34,8 @@ public class InstallmentGenerationBrazilBankTest {
 				
 		Installment installment =  
 				installmentGeneration.generationInstallment(21000.00, 218.75);
+		
+		assertThat( installment.value(), is(382.22) );	
 		
 	}
 	
